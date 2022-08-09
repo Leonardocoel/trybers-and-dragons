@@ -1,4 +1,4 @@
-import { EnergyType } from '../Energy';
+import { EnergyType } from '../../Energy';
 import { ArchetypeDTO } from './IArchetype';
 
 export default abstract class Archetype implements ArchetypeDTO {
