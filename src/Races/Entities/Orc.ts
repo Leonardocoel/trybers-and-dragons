@@ -1,4 +1,4 @@
-import Race from '../Race';
+import Race from './Race';
 
 export default class Orc extends Race {
   maxLifePoints: number;
@@ -10,7 +10,7 @@ export default class Orc extends Race {
     Orc._raceInstances += 1;
   }
 
-  static createdRacesInstances(): number {
+  public static createdRacesInstances(): number {
     return Orc._raceInstances;
   }
 }

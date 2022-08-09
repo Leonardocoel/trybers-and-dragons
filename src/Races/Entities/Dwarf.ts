@@ -1,4 +1,4 @@
-import Race from '../Race';
+import Race from './Race';
 
 export default class Dwarf extends Race {
   maxLifePoints: number;
@@ -10,7 +10,7 @@ export default class Dwarf extends Race {
     Dwarf._raceInstances += 1;
   }
 
-  static createdRacesInstances(): number {
+  public static createdRacesInstances(): number {
     return Dwarf._raceInstances;
   }
 }

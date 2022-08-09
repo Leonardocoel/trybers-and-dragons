@@ -9,15 +9,15 @@ export default abstract class Race implements RaceDTO {
     this._dexterity = dexterity;
   }
 
-  get name(): string {
+  public get name(): string {
     return this._name;
   }
 
-  get dexterity(): number {
+  public get dexterity(): number {
     return this._dexterity;
   }
 
-  static createdRacesInstances(): number {
+  public static createdRacesInstances(): number {
     throw new Error('Not implemented');
   }
 
