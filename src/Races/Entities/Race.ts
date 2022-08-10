@@ -1,8 +1,8 @@
 import { RaceDTO } from './IRace';
 
 export default abstract class Race implements RaceDTO {
-  private readonly _name: string;
-  private readonly _dexterity: number;
+  private _name: string;
+  private _dexterity: number;
 
   constructor(name: string, dexterity: number) {
     this._name = name;

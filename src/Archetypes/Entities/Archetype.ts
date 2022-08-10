@@ -2,9 +2,9 @@ import { EnergyType } from '../../Energy';
 import { ArchetypeDTO } from './IArchetype';
 
 export default abstract class Archetype implements ArchetypeDTO {
-  private readonly _name: string;
-  private readonly _special: number;
-  private readonly _cost: number;
+  private _name: string;
+  private _special: number;
+  private _cost: number;
 
   constructor(name: string) {
     this._name = name;
