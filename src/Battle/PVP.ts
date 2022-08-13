@@ -14,6 +14,8 @@ export default class PVP extends Battle {
   fight(): number {
     this._attacker.attack(this._defender);
     this._defender.attack(this._attacker);
+    this._attacker.attack(this._defender);
+    this._defender.attack(this._attacker);
     
     return super.fight();
   }
