@@ -1,16 +1,20 @@
-# 🚧 README em construção 🚧
+# Store Manager Project
 
-<!-- Olá, Tryber!
+BR
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+Projeto realizado para a Trybe utilizando os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos RPG (Role Playing Game).
 
-É essencial que você preencha esse documento por conta própria, ok?
+* Com exceceção dos arquivos desse [commit](https://github.com/Leonardocoel/trybers-and-dragons/commit/f690dbe05d358e8d6671a589ad9820c709314f10) o projeto foi desenvolvido inteiramente por mim.
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+#
+ENG
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+Project made for Trybe using the principles of the SOLID architecture and the principles of OOP in an RPG (Role Playing Game) game structure.
 
--->
+* Project made with a focus on being RESTful and using TDD in its development.
+* With the exception of the files of this [commit](https://github.com/Leonardocoel/trybers-and-dragons/commit/f690dbe05d358e8d6671a589ad9820c709314f10) the project was developed entirely by me.
+
+#
+</br>
+
+TYPESCRIPT, POO, SOLID.
